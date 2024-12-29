@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.753);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 25px auto;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+nav{
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background: #373f44bd;
+    box-shadow: 0 5px 10px rgba(145, 139, 130, 0.397);
+   }
+   nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 90%;
+    background: #1b2024b7;
+    margin: auto;
+   }
+   nav .navbar .logo a{
+     color: #fff;
+     font-size: 27px;
+     font-weight: 600;
+     text-decoration: none;
+   }
+   nav .navbar .menu{
+     display: flex;
+   }
+   .navbar .menu li{
+     list-style: none;
+     margin: 0 15px;
+   }
+   .navbar .menu li a{
+     color: #fff;
+     font-size: 17px;
+     font-weight: 500;
+     text-decoration: none;
+     padding: 6px;
+     border-radius: 4px;
+   }
+   nav .navbar .menu li a :active{
+    background-color: #f4f4
+   }
+.hero {
+    background-image: url("ll.jpg");
+    color: white;
+    padding: 300px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.catalog {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.catalog h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.book-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.book-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.book-item h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.book-item p {
+    font-size: 1rem;
+    color: #777;
+}
+
+.contact {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact .form-group {
+    margin-bottom: 15px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.contact button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+.center{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+  }
+  .center .titlee{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+  
+  }
+  .center .title{
+    color: #fff;
+    font-size: 58px;
+    font-weight: 600;
+  
+  }
+  .center .sub_title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+ 
+  }
+  .center .btns{
+    margin-top: 20px;
+  }
+  .center .btns button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
+  }
+  .center .btns button:first-child{
+    color: #fff;
+    background: none;
+  }
+  .btns a button:first-child:hover{
+    background: rgba(48, 44, 44, 0.418);
+    color: black;
+  }
+  .btns button:first-child:active{
+    background:rgba(34, 43, 46, 0.815);
+    color: black;
+  }
+  .center .btns button:last-child{
+    background: white;
+    color: black;
+  }
+  .navbar .menu li a:active{
+      background:#b6aaaa;
+      color:white;
+  }
+  .center .btns button:last-child:active{
+      background:none;
+      color:white;
+  }
+
+
+
+  
